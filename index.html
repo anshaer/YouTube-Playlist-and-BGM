@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="version" content="0.4.3-alpha" >
+    <meta name="version" content="0.4.3-rc+2024.12.23.12.56.31" >
 
 
     <title>YouTube Player with Playlist and BGM</title>
-<!-- Version: 0.4.3-alpha
+<!-- Version: 0.4.3-rc+2024.12.23.12.56.31
 Build Date: 2024-12-23-04-59-21
  -->
 
@@ -186,7 +186,7 @@ Build Date: 2024-12-23-04-59-21
 
 
 <footer>
-    <p>Version: 0.4.3-alpha
+    <p>Version: 0.4.3-rc+2024.12.23.12.56.31
 
 
 
@@ -333,7 +333,7 @@ Build Date: 2024-12-23-04-59-21
 
 
 app.use((req, res, next) => {
-    res.locals.version = process.env.NODE_ENV === 'development' ? '0.4.2-alpha' : '';
+    res.locals.version = process.env.NODE_ENV === 'development' ? '0.4.3-rc+2024.12.23.12.56.31' : '';
     next();
 });
 
